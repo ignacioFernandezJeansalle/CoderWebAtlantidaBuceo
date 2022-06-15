@@ -64,7 +64,7 @@ main h3 {
 	margin: auto;
 	margin-top: 20px;
 	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	transition: letter-spacing 0.5s, box-shadow 0.5s;
 }
 
 .btnMasInfo i {
@@ -73,8 +73,8 @@ main h3 {
 }
 
 .btnMasInfo:hover {
-	text-decoration: underline;
-	/* transform: scale(1.01, 1.01) ; */
+	letter-spacing: 0.1rem;
+    box-shadow: 0 0 20px #000000 ;
 }
 
 /* ------------------------------------------------------------ */
@@ -344,7 +344,8 @@ main h3 {
 	margin-left: 19%;
 	width: 30%;
 	padding: 20px;
-	background-color: var(--colorATLVerde);
+	/* background-color: var(--colorATLVerde); */
+	background-image: linear-gradient(to right, var(--colorATLVerde), #000000);
 	border-radius: 10px;
 	color: #FFFFFF;
 }
@@ -359,7 +360,8 @@ main h3 {
 	margin-left: 2%;
 	width: 30%;
 	padding: 20px;
-	background-color: var(--colorATLVerde);
+	/* background-color: var(--colorATLVerde); */
+	background-image: linear-gradient(to left, var(--colorATLVerde), #000000);
 	border-radius: 10px;
 	color: #FFFFFF;
 }
@@ -373,7 +375,8 @@ main h3 {
 	margin-top: 20px;
 	width: 75%;
 	padding: 20px;
-	background-color: var(--colorATLVerde);
+	/* background-color: var(--colorATLVerde); */
+	background-image: linear-gradient(to left, var(--colorATLVerde), #000000, var(--colorATLVerde));
 	border-radius: 10px;
 	color: #FFFFFF;
 	text-align: center;
@@ -401,6 +404,7 @@ main h3 {
 	padding: 20px;
 	background-color: var(--colorATLVerde);
 	color: #FFFFFF;
+	background-image: linear-gradient(to left, var(--colorATLVerde), #000000, var(--colorATLVerde));
 }
 
 .introViajes hr {
