@@ -45,35 +45,44 @@
             <a href="https://api.whatsapp.com/send?phone=5491159790203" target="_blank"><img src="../images/logo-whatsapp.png" alt="WhatsApp"/></a>
         </section>
 
-        <section class="contacto">
-            <h2>CONTACTO</h2>
-            <!-- Formulario de contacto -->
-            <form class="contacto__form">
-                <fieldset>
-                    <legend>Dejanos tu consulta</legend>
-                    <input type="text" id="nombre" placeholder="Nombre" required/>
-                    <br/>
-                    <input type="email" id="email" placeholder="Correo electrónico" required/>
-                    <br/>
-                    <input type="number" id="telefono" placeholder="Teléfono" required/>
-                    <br/>
-                    <select id="motivo">
-                        <option value="default">Motivo de consulta</option>
-                        <option value="Cursos">Cursos</option>
-                        <option value="Viajes">Viajes</option>
-                        <option value="Otro">Otro</option>					
-                    </select>
-                    <br/>
-                    <textarea id="consulta" rows="10" cols="25" placeholder="Escriba aquí su consulta..." required></textarea>
-                    <br/>
-                    <input class="btn" type="submit"/>
-                </fieldset>
-            </form>
-        </section>
-
-        <section class="ubicacion">
-            <h2>DONDE ESTAMOS</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.051001842471!2d-58.50485058481242!3d-34.65341488044667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9074a081c6b%3A0xcef2d3c60f3d78b6!2sBuceo%20Atlantida%20Diving%20School!5e0!3m2!1ses-419!2sar!4v1652830074646!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="container-fluid">
+            <div class="tituloPagina">
+                <h1 class="mt-4">CONTACTO</h1>
+                <hr/>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 p-4">
+                    <!-- Formulario de contacto -->
+                    <form class="contacto__form p-4">
+                        <fieldset>
+                            <legend>Dejanos tu consulta</legend>
+                            <input type="text" id="nombre" placeholder="Nombre" required/>
+                            <br/>
+                            <input type="email" id="email" placeholder="Correo electrónico" required/>
+                            <br/>
+                            <input type="number" id="telefono" placeholder="Teléfono" required/>
+                            <br/>
+                            <select id="motivo">
+                                <option value="default">Motivo de consulta</option>
+                                <option value="Cursos">Cursos</option>
+                                <option value="Viajes">Viajes</option>
+                                <option value="Otro">Otro</option>					
+                            </select>
+                            <br/>
+                            <textarea id="consulta" rows="10" cols="25" placeholder="Escriba aquí su consulta..." required></textarea>
+                            <br/>
+                            <input class="btn" type="submit"/>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center ubicacion">
+                <h2 class="mt-4">DONDE ESTAMOS</h2>
+                <hr/>    
+                <div class="col-12 col-md-8 p-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.051001842471!2d-58.50485058481242!3d-34.65341488044667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9074a081c6b%3A0xcef2d3c60f3d78b6!2sBuceo%20Atlantida%20Diving%20School!5e0!3m2!1ses-419!2sar!4v1652830074646!5m2!1ses-419!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
     </main>
 

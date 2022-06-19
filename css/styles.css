@@ -61,7 +61,6 @@ main h3 {
 	color: var(--colorATLRojo);	
 }
 
-
 .btnMasInfo {
 	background-color: var(--colorATLRojo);
 	color: #FFFFFF;
@@ -275,7 +274,7 @@ main h3 {
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);	
+	color: var(--colorATLVerde);
 }
 
 .introCursosEspecialidades hr, .introNosotros hr {
@@ -283,7 +282,7 @@ main h3 {
 }
 
 /* ------------------------------------------------------------ */
-/* ---------- INDEX . VIAJES ---------------------------------- */
+/* ---------- INDEX . VIAJES (BOOTSTRAP) ---------------------- */
 /* ------------------------------------------------------------ */
 .introViajes {
 	width: 100%;
@@ -300,12 +299,10 @@ main h3 {
 
 .introViajes img {
 	width: 100%;
-	/* border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7); */
 }
 
 /* ------------------------------------------------------------ */
-/* ---------- CURSOS . CURSOS --------------------------------- */
+/* ---------- CURSOS . CURSOS (BOOTSTRAP) --------------------- */
 /* ------------------------------------------------------------ */
 .cursos__flex--izq, .cursos__flex--der {
 	width: 100%;
@@ -366,53 +363,30 @@ main h3 {
 }
 
 /* ------------------------------------------------------------ */
-/* ---------- VIAJES . VIAJES --------------------------------- */
+/* ---------- VIAJES . VIAJES (BOOTSTRAP) --------------------- */
 /* ------------------------------------------------------------ */
-.viajes {
-	padding: 20px;
-}
-
-.viajes h1 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
 .viajes__welcome {
-	width: 70%;
-	margin: auto;
-	padding: 20px;
-	background-color: var(--colorATLVerde);
-	color: #FFFFFF;
-	border-radius: 12px;
-}
-
-.viajes__welcome p {
-	margin-bottom: 10px;
-}
-
-.viajes__temp2021, .viajes__temp2022 {
-	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
+	color: var(--colorATLVerde);
 }
 
 .viajes__temp2021 h2, .viajes__temp2022 h2 {
 	background-color: var(--colorATLRojo);
 	color: #FFFFFF;
-	border-radius: 12px;
-	width: 70%;
+	border-radius: 10px;
+	width: 30%;
 	padding: 10px;
-	margin: auto;
+	margin: auto;	
 }
 
 .viajes__temp2021 h3, .viajes__temp2022 h3 {
 	background-color: var(--colorATLVerde);
 	color: #FFFFFF;
-	border-radius: 12px;
+	border-radius: 10px;
 	width: 65%;
 	padding: 10px;
-	margin: 30px auto 10px auto;
+	margin: 40px auto 10px auto;
 }
 
 .viaje__galeria {
@@ -475,65 +449,23 @@ main h3 {
 }
 
 /* ------------------------------------------------------------ */
-/* ---------- NOSOTROS . NOSOTROS ----------------------------- */
+/* ---------- NOSOTROS . NOSOTROS (BOOTSTRAP) ----------------- */
 /* ------------------------------------------------------------ */
-.nosotros {
-	padding: 20px;
-}
-
-.nosotros h1 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
-.nosotros p {
-	background-color: var(--colorATLVerde);
-	color: #FFFFFF;
-	border-radius: 12px;
-	width: 70%;
-	padding: 10px;
-	margin: 0 auto 20px 15%;
-	text-align: center;
-}
-
-.nosotros h2 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	width: 80%;
-	padding: 10px;
-	margin: 0 auto 0 10%;
-}
-
-.staff {
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	align-items: stretch;
-	width: 80%;
-	margin-left: 10%;
+.nosotros__welcome {
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
+	color: var(--colorATLVerde);
 }
 
 .staff__card {
-	max-width: 30%;
-	margin-bottom: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: box-shadow 0.3s;
+	transition: 0.3s;
 }
 
-.staff__card img {
-	display: block;
-	width: 100%;
-}
-  
 .staff__card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-  
+
 .staff__cardDatos {
 	padding: 2px 16px;
 }
@@ -545,26 +477,10 @@ main h3 {
 /* ------------------------------------------------------------ */
 /* ---------- CONTACTO . CONTACTO ----------------------------- */
 /* ------------------------------------------------------------ */
-.contacto {
-	padding: 20px;
-}
-
-.contacto h2 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	padding: 10px;
-	/* width: 50%; */
-	margin: auto;
-}
-
 .contacto__form {
-	width: 60%;
-	padding: 20px;
-	background-color: var(--colorATLVerde);
-	color: #FFFFFF;
-	border-radius: 12px;
-	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
+	color: var(--colorATLVerde);
 }
 
 .contacto__form fieldset {
@@ -579,7 +495,7 @@ main h3 {
 	font-size: 0.9rem;
 }
 
-.contacto__form fieldset textarea { /* NO ME FUNCIONA EL BLOQUEO DE LA MODIFICACION DE TAMAÑO */
+.contacto__form fieldset textarea {
 	min-height: 100px;
 	max-height: 100px;
 	max-width: 90%;
@@ -590,33 +506,24 @@ main h3 {
 	width: 50%;
 	margin-left: 25%;
 	background-color: var(--colorATLRojo);
-	border-radius: 12px; 
+	border-radius: 10px; 
 	color: #FFFFFF;
 	border-color: var(--colorATLVerde);
 	padding: 5px;
 }
 
-.ubicacion {
-	padding: 20px;
+.ubicacion h2 {
+	color: var(--colorATLVerde);
 }
 
-.ubicacion h2 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	padding: 10px;
-/* 	width: 50%; */
-	margin: auto;
+.ubicacion hr {
+	color: var(--colorATLRojo);
 }
 
 .ubicacion iframe {
-	display: block;
-	width: 60%;
-	padding: 20px;
-	background-color: var(--colorATLVerde);
-	color: #FFFFFF;
-	border-radius: 12px;
-	margin: 20px auto;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
 }
 
 /****************************************************************/
@@ -672,12 +579,8 @@ main h3 {
 	/* ------------------------------------------------------------ */
 	/* ---------- VIAJES . VIAJES --------------------------------- */
 	/* ------------------------------------------------------------ */
-	.viajes__welcome {
-		width: 100%;
-	}
-
 	.viajes__temp2021 h2, .viajes__temp2022 h2 {
-		width: 90%;
+		width: 60%;
 	}
 
 	.viajes__temp2021 h3, .viajes__temp2022 h3 {
@@ -696,34 +599,5 @@ main h3 {
 			"vgs8"
 			"vgs9";
 		width: 95%;
-	}
-
-	/* ------------------------------------------------------------ */
-	/* ---------- NOSOTROS . NOSOTROS ----------------------------- */
-	/* ------------------------------------------------------------ */
-	.staff {
-		flex-direction: column;
-		/* padding: 20px;
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		align-items: stretch;
-		width: 80%;
-		margin-left: 10%; */
-	}
-
-	.staff__card {
-		max-width: 100%;
-	}
-
-	/* ------------------------------------------------------------ */
-	/* ---------- CONTACTO . CONTACTO ----------------------------- */
-	/* ------------------------------------------------------------ */
-	.contacto__form {
-		width: 90%;
-	}
-
-	.ubicacion iframe {
-		width: 90%;
 	}
 }
