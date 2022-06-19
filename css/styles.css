@@ -54,27 +54,23 @@ main h3 {
 }
 
 .btnMasInfo {
-	display: block;
 	background-color: var(--colorATLRojo);
 	color: #FFFFFF;
 	text-decoration: none;
-	text-align: center;
-	width: 120px;
-	padding: 10px;
-	margin: auto;
-	margin-top: 20px;
+	padding: 10px 20px;
 	border-radius: 10px;
 	transition: letter-spacing 0.5s, box-shadow 0.5s;
 }
 
 .btnMasInfo i {
 	display: inline-block;
-	margin-left: 7px;
+	margin-left: 10px;
 }
 
 .btnMasInfo:hover {
+	color: #FFFFFF;
 	letter-spacing: 0.1rem;
-    box-shadow: 0 0 20px #000000 ;
+	box-shadow: 0 4px 8px 0 rgba(220,0,84,0.7);
 }
 
 /* ------------------------------------------------------------ */
@@ -262,101 +258,41 @@ main h3 {
 }
 
 /* ------------------------------------------------------------ */
-/* ---------- INDEX . CURSOS Y ESPECIALIDADES ----------------- */
+/* -------- INDEX . CURSOS Y ESPECIALIDADES (BOOTSTRAP) ------- */
 /* ------------------------------------------------------------ */
-.introCursos {
-	padding: 20px;
-}
-
-.introCursos__cursos {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 19%;
-	width: 30%;
-	padding: 20px;
-	/* background-color: var(--colorATLVerde); */
-	background-image: linear-gradient(to right, var(--colorATLVerde), #000000);
-	border-radius: 10px;
-	color: #FFFFFF;
-}
-
-.introCursos__cursos ul {
-	list-style: none;
-}
-
-.introCursos__especialidades {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 2%;
-	width: 30%;
-	padding: 20px;
-	/* background-color: var(--colorATLVerde); */
-	background-image: linear-gradient(to left, var(--colorATLVerde), #000000);
-	border-radius: 10px;
-	color: #FFFFFF;
-}
-
-.introCursos__especialidades ul {
-	list-style: none;
-}
-
-.introCursos__nosotros {
+.introCursosEspecialidades, .introNosotros {
+	width: 80%;
 	margin: auto;
-	margin-top: 20px;
-	width: 75%;
 	padding: 20px;
-	/* background-color: var(--colorATLVerde); */
-	background-image: linear-gradient(to left, var(--colorATLVerde), #000000, var(--colorATLVerde));
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: #FFFFFF;
-	text-align: center;
+	color: var(--colorATLVerde);	
 }
 
-.introCursos__nosotros ul {
-	display: inline-block;
-	margin: auto;
-	text-align: left;
-}
-
-.introCursos hr {
-	background-color: var(--colorATLRojo);
-	height: 1px;
-	border: none;
-	/* width: 98%;
-	margin: auto; */
-	margin-bottom: 0.4rem;
+.introCursosEspecialidades hr, .introNosotros hr {
+	color: var(--colorATLRojo);
 }
 
 /* ------------------------------------------------------------ */
 /* ---------- INDEX . VIAJES ---------------------------------- */
 /* ------------------------------------------------------------ */
 .introViajes {
+	width: 100%;
+	margin: auto;
 	padding: 20px;
-	background-color: var(--colorATLVerde);
-	color: #FFFFFF;
-	background-image: linear-gradient(to left, var(--colorATLVerde), #000000, var(--colorATLVerde));
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
+	color: var(--colorATLVerde);
 }
 
 .introViajes hr {
-	background-color: var(--colorATLRojo);
-	height: 1px;
-	border: none;
-	margin-bottom: 0.4rem;
+	color: var(--colorATLRojo);
 }
 
-.introViajes__galeria {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-row-gap: 20px;
-    grid-column-gap: 20px;
-	width: 85%;
-	margin-top: 20px;
-	margin: 20px auto;
-}
-
-.introViajes__galeriaImg img {
-	border-radius: 5px;
+.introViajes img {
 	width: 100%;
+	/* border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7); */
 }
 
 /* ------------------------------------------------------------ */
@@ -748,23 +684,6 @@ main h3 {
 		display: none;
 	}
 	
-	/* ------------------------------------------------------------ */
-	/* ---------- INDEX . CURSOS Y ESPECIALIDADES ----------------- */
-	/* ------------------------------------------------------------ */
-	.introCursos__cursos {
-		margin-left: 2%;
-		width: 45%;
-	}
-	
-	.introCursos__especialidades {
-		margin-left: 6%;
-		width: 45%;
-	}
-
-	.introCursos__nosotros {
-		width: 96%;
-	}
-
 	/* ------------------------------------------------------------ */
 	/* ---------- INDEX . VIAJES ---------------------------------- */
 	/* ------------------------------------------------------------ */
