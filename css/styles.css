@@ -8,11 +8,11 @@
 	src: url(./fonts/OstrichSans-Heavy.otf);
 }
 
-/*********** CONSTANTES ***********/
-/* Color principal verde: #006878 */
-/* Color principal rojo:  #DC0054 */
-/*                 gris:  #F2F2F2 */
-/*********** CONSTANTES ***********/
+/*******************************************************/
+/* Color principal verde: #006878 rgba(0, 104, 120, 1) */
+/* Color principal rojo:  #DC0054 rgba(220, 0, 84, 1)  */
+/*                 gris:  #F2F2F2                      */
+/*******************************************************/
 :root {
 	--colorATLVerde: #006878;
 	--colorATLRojo: #DC0054;
@@ -52,6 +52,15 @@ main h3 {
 	margin-bottom: 0.3rem;
 	text-align: center;
 }
+
+.tituloPagina h1 {
+	color: var(--colorATLVerde);	
+}
+
+.tituloPagina hr {
+	color: var(--colorATLRojo);	
+}
+
 
 .btnMasInfo {
 	background-color: var(--colorATLRojo);
@@ -298,43 +307,19 @@ main h3 {
 /* ------------------------------------------------------------ */
 /* ---------- CURSOS . CURSOS --------------------------------- */
 /* ------------------------------------------------------------ */
-.cursos {
-	padding: 20px;
-}
-
-.cursos h1 {
-	background-color: var(--colorATLRojo);
-	color: #FFFFFF;
-	border-radius: 12px;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
-.cursos__flex {
-	display: flex;
-	justify-content: center;
-}
-
 .cursos__flex--izq, .cursos__flex--der {
-	/* border: 1px solid black; */
-	width: 50%;
-	max-width: 500px;
-	margin: 0 20px;
+	width: 100%;
+	max-width: 450px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 12px;
+	color: var(--colorATLVerde);
 }
 
 .cursos__flex--izq hr {
-	background-color: var(--colorATLVerde);
-	height: 1px;
-	border: none;
-}
-
-.cursos__flex--der hr {
-	background-color: var(--colorATLRojo);
-	height: 1px;
-	border: none;
+	color: var(--colorATLRojo);
 }
 
 .cursos__flex--der {
@@ -684,27 +669,6 @@ main h3 {
 		display: none;
 	}
 	
-	/* ------------------------------------------------------------ */
-	/* ---------- INDEX . VIAJES ---------------------------------- */
-	/* ------------------------------------------------------------ */
-	.introViajes__galeria {
-		grid-template-columns: 1fr;
-	}	
-	
-	/* ------------------------------------------------------------ */
-	/* ---------- CURSOS . CURSOS --------------------------------- */
-	/* ------------------------------------------------------------ */
-	.cursos__flex {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.cursos__flex--izq, .cursos__flex--der {
-		width: 100%;
-		margin: 0px;
-	}
-
 	/* ------------------------------------------------------------ */
 	/* ---------- VIAJES . VIAJES --------------------------------- */
 	/* ------------------------------------------------------------ */
