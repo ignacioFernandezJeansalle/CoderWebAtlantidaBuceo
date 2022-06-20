@@ -209,6 +209,17 @@ main h3 {
 	color: #FFFFFF;
 }
 
+.welcome__slide p {
+	font-size: 1.1rem;
+	line-height: 1.1;
+}
+
+.carousel-indicators .welcome__slide--dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
 .welcome__logoPadi {
 	position: absolute;
 	bottom: 20px;
@@ -560,10 +571,15 @@ main h3 {
 	}
 
 	.welcome__slide {
-		top: 50%;
+		top: 40%;
 		bottom: 0px;
 		left: 0px;
 		width: 100%;
+	}
+
+	.welcome__slide p {
+		font-size: 1rem;
+		line-height: 1;
 	}
 
 	.welcome__logoPadi {
