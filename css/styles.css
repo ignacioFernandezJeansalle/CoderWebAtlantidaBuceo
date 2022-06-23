@@ -53,10 +53,6 @@ main h3 {
 	text-align: center;
 }
 
-.tituloPagina h1 {
-	color: var(--colorATLVerde);	
-}
-
 .tituloPagina hr {
 	color: var(--colorATLRojo);	
 }
@@ -285,7 +281,6 @@ main h3 {
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);
 }
 
 .introCursosEspecialidades hr, .introNosotros hr {
@@ -301,7 +296,6 @@ main h3 {
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);
 }
 
 .introViajes hr {
@@ -323,7 +317,7 @@ main h3 {
 	flex-direction: column;
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 12px;
-	color: var(--colorATLVerde);
+	/* color: var(--colorATLVerde); */
 }
 
 .cursos__flex--izq hr {
@@ -379,7 +373,6 @@ main h3 {
 .viajes__welcome {
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);
 }
 
 .viajes__temp2021 h2, .viajes__temp2022 h2 {
@@ -465,7 +458,6 @@ main h3 {
 .nosotros__welcome {
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);
 }
 
 .staff__card {
@@ -491,7 +483,6 @@ main h3 {
 .contacto__form {
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 10px;
-	color: var(--colorATLVerde);
 }
 
 .contacto__form fieldset {
@@ -521,10 +512,6 @@ main h3 {
 	color: #FFFFFF;
 	border-color: var(--colorATLVerde);
 	padding: 5px;
-}
-
-.ubicacion h2 {
-	color: var(--colorATLVerde);
 }
 
 .ubicacion hr {
