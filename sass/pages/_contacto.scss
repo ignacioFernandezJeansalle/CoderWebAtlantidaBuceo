@@ -1,0 +1,49 @@
+/*****************************/
+/* _contacto.scss - Contacto */
+/*****************************/
+
+.contacto__form {
+	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+	border-radius: 10px;
+
+    fieldset {
+        padding: 10px;
+
+        input, select, textarea {
+            margin: 0 auto 7px 5%;
+            width: 90%;
+            padding: 2px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        textarea {
+            min-height: 100px;
+            max-height: 100px;
+            max-width: 90%;
+            min-width: 90%;
+        }
+    }
+
+    .btn {
+        width: 50%;
+        margin-left: 25%;
+        background-color: $colorATLRojo;
+        border-radius: 10px; 
+        color: #FFFFFF;
+        border-color: $colorATLVerde;
+        padding: 5px;
+    }    
+}
+
+.ubicacion {
+    hr {
+        color: $colorATLRojo;
+    }
+    
+    iframe {
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
+        border-radius: 10px;
+    }
+}

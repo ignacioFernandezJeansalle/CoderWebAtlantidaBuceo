@@ -48,3 +48,20 @@ main {
         }
     }
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+	main {
+        h1 {
+            font-size: 1.8rem;
+        }
+        
+        h2 {
+            font-size: 1.6rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+        }
+    }
+}

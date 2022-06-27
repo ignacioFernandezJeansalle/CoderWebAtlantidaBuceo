@@ -13,3 +13,10 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+}
