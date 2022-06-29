@@ -1,27 +1,31 @@
 /**************************/
 /* _common.scss - Comunes */
 /**************************/
+$map-h1-h2-h3: (
+    fuente: 'OstrichSans-Heavy',
+    tamanoFuente: 2rem,
+    margenInferior: 0.5rem,
+    alineacion: center
+    );
 
 main {
     h1 {
-        font-family: 'OstrichSans-Heavy';
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        text-align: center;
+        font-family: map-get($map-h1-h2-h3, fuente);
+        font-size: map-get($map-h1-h2-h3, tamanoFuente);
+        margin-bottom: map-get($map-h1-h2-h3, margenInferior);
+        text-align: map-get($map-h1-h2-h3, alineacion);
     }
-    
+
     h2 {
-        font-family: 'OstrichSans-Heavy';
-        font-size: 1.8rem;
-        margin-bottom: 0.4rem;
-        text-align: center;
+        @extend h1;
+        font-size: map-get($map-h1-h2-h3, tamanoFuente)*0.9;
+        margin-bottom: map-get($map-h1-h2-h3, margenInferior)-0.1rem;
     }
-    
+
     h3 {
-        font-family: 'OstrichSans-Heavy';
-        font-size: 1.6rem;
-        margin-bottom: 0.3rem;
-        text-align: center;
+        @extend h1;
+        font-size: map-get($map-h1-h2-h3, tamanoFuente)*0.8;
+        margin-bottom: map-get($map-h1-h2-h3, margenInferior)-0.2rem;
     }
 }
 

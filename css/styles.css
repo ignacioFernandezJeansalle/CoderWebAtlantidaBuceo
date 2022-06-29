@@ -31,23 +31,19 @@ body {
 /**************************/
 /* _common.scss - Comunes */
 /**************************/
-main h1 {
+main h1, main h3, main h2 {
   font-family: "OstrichSans-Heavy";
   font-size: 2rem;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 main h2 {
-  font-family: "OstrichSans-Heavy";
   font-size: 1.8rem;
   margin-bottom: 0.4rem;
-  text-align: center;
 }
 main h3 {
-  font-family: "OstrichSans-Heavy";
   font-size: 1.6rem;
   margin-bottom: 0.3rem;
-  text-align: center;
 }
 
 .tituloPagina hr {
@@ -72,7 +68,7 @@ main h3 {
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-  main h1 {
+  main h1, main h2, main h3 {
     font-size: 1.8rem;
   }
   main h2 {
@@ -208,7 +204,7 @@ main h3 {
   position: absolute;
   top: 20px;
   bottom: 20px;
-  left: 1%;
+  left: 20px;
   width: 29%;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -240,8 +236,8 @@ main h3 {
   position: absolute;
   top: 20px;
   bottom: 20px;
-  right: 1%;
-  width: 30%;
+  right: 20px;
+  width: 35%;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   color: #FFFFFF;
@@ -334,7 +330,7 @@ main h3 {
 /* ------------------ */
 /* CURSOS (BOOTSTRAP) */
 /* ------------------ */
-.cursos__flex--izq, .cursos__flex--der {
+.cursos__flex--der, .cursos__flex--izq {
   width: 100%;
   max-width: 450px;
   padding: 20px;
@@ -350,7 +346,6 @@ main h3 {
 
 .cursos__flex--der {
   background-color: #006878;
-  border-radius: 12px;
   color: #FFFFFF;
 }
 .cursos__flex--der a {
@@ -371,7 +366,6 @@ main h3 {
   flex-direction: row;
   margin: 10px 0;
 }
-
 .flexLista__ico {
   width: 32px;
   height: 32px;
@@ -381,7 +375,6 @@ main h3 {
   margin-right: 10px;
   margin-bottom: 25px;
 }
-
 .flexLista__texto {
   width: 100%;
   margin-bottom: 25px;
@@ -426,6 +419,12 @@ main h3 {
   margin: 20px auto;
 }
 
+.viaje__galeriaImg9 img, .viaje__galeriaImg8 img, .viaje__galeriaImg7 img, .viaje__galeriaImg6 img, .viaje__galeriaImg5 img, .viaje__galeriaImg4 img, .viaje__galeriaImg3 img, .viaje__galeriaImg2 img, .viaje__galeriaImg1 img {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+
 .viaje__galeriaImg1 {
   grid-area: vgs1;
 }
@@ -460,14 +459,6 @@ main h3 {
 
 .viaje__galeriaImg9 {
   grid-area: vgs9;
-}
-
-.viaje__galeriaImg1 img, .viaje__galeriaImg2 img, .viaje__galeriaImg3 img,
-.viaje__galeriaImg4 img, .viaje__galeriaImg5 img, .viaje__galeriaImg6 img,
-.viaje__galeriaImg7 img, .viaje__galeriaImg8 img, .viaje__galeriaImg9 img {
-  border-radius: 5px;
-  width: 100%;
-  display: block;
 }
 
 /* RESPONSIVE */

@@ -5,23 +5,28 @@
 /* ------------------ */
 /* CURSOS (BOOTSTRAP) */
 /* ------------------ */
-.cursos__flex--izq, .cursos__flex--der {
+%cursos__flex {
 	width: 100%;
 	max-width: 450px;
 	padding: 20px;
-	display: flex;
-	flex-direction: column;
+	@include d-flex (column);
+// 	display: flex;
+//	flex-direction: column;
 	box-shadow: 0 4px 8px 0 rgba(0,104,120,0.7);
 	border-radius: 12px;
 }
 
-.cursos__flex--izq hr {
-	color: $colorATLRojo;
+.cursos__flex--izq {
+	@extend %cursos__flex;
+	
+	hr {
+		color: $colorATLRojo;
+	}
 }
 
 .cursos__flex--der {
+	@extend %cursos__flex;
 	background-color: $colorATLVerde;
-	border-radius: 12px;
 	color: #FFFFFF;
 
     a {
@@ -41,23 +46,24 @@
 }
 
 .flexLista {
-	display: flex;
-	flex-direction: row;
+	@include d-flex (row);
+//	display: flex;
+//	flex-direction: row;
 	margin: 10px 0;
-}
 
-.flexLista__ico {
-	width: 32px;
-	height: 32px;
-	background-image: url(../images/logo-pestania.ico);
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin-right: 10px;
-	margin-bottom: 25px;
-}
-
-.flexLista__texto {
-	width: 100%;
-	margin-bottom: 25px;
-	text-align: justify;
+	&__ico {
+		width: 32px;
+		height: 32px;
+		background-image: url(../images/logo-pestania.ico);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-right: 10px;
+		margin-bottom: 25px;
+	}
+	
+	&__texto {
+		width: 100%;
+		margin-bottom: 25px;
+		text-align: justify;
+	}
 }

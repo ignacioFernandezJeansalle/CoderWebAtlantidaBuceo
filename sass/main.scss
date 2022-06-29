@@ -2,7 +2,7 @@
 
 @import 'utilities/variables';
 //@import 'utilities/functions';
-//@import 'utilities/mixins';
+@import 'utilities/mixins';
 
 //@import 'vendors/bootstrap';
 //@import 'vendors/jquery-ui';
@@ -28,3 +28,20 @@
 
 //@import 'themes/theme';
 //@import 'themes/admin';
+
+
+
+
+// Aplicar un mapa, un mixin y un extend para modificar cualquier elemento de nuestro sitio.
+// Realizar las modificaciones necesarias para mejorar el SEO en nuestro sitio.
+
+// Aspectos a incluir en el entregable:
+// Declarar un mapa y utilizar un map-get. Extender una clase base y modificarla. Generar un mixin para reutilizar código.
+// Suma keywords, descripción, títulos y encabezado a todas las páginas de tu sitio.
+// Explica en un Google Doc los cambios realizados en el punto anterior, por ejemplo: 
+// “Agregué estas keywords”, “cambié estos títulos”
+
+// Apliqué: 
+// _viajes.scss     for + extend
+// _common.scss     map + extend
+// _cursos.scss     extend + mixin
