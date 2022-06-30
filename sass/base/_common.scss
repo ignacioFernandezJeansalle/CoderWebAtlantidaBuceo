@@ -4,6 +4,7 @@
 $map-h1-h2-h3: (
     fuente: 'OstrichSans-Heavy',
     tamanoFuente: 2rem,
+    tamanoFuenteMobile: 1.8rem,
     margenInferior: 0.5rem,
     alineacion: center
     );
@@ -57,15 +58,15 @@ main {
 @media screen and (max-width: 768px) {
 	main {
         h1 {
-            font-size: 1.8rem;
+            font-size: map-get($map-h1-h2-h3, tamanoFuenteMobile);
         }
         
         h2 {
-            font-size: 1.6rem;
+            font-size: map-get($map-h1-h2-h3, tamanoFuenteMobile)*0.9;
         }
         
         h3 {
-            font-size: 1.4rem;
+            font-size: map-get($map-h1-h2-h3, tamanoFuenteMobile)*0.8;
         }
     }
 }

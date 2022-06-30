@@ -29,19 +29,17 @@
 //@import 'themes/theme';
 //@import 'themes/admin';
 
-
-
-
 // Aplicar un mapa, un mixin y un extend para modificar cualquier elemento de nuestro sitio.
-// Realizar las modificaciones necesarias para mejorar el SEO en nuestro sitio.
-
-// Aspectos a incluir en el entregable:
 // Declarar un mapa y utilizar un map-get. Extender una clase base y modificarla. Generar un mixin para reutilizar código.
-// Suma keywords, descripción, títulos y encabezado a todas las páginas de tu sitio.
-// Explica en un Google Doc los cambios realizados en el punto anterior, por ejemplo: 
-// “Agregué estas keywords”, “cambié estos títulos”
+    // _common.scss     map + extend
+    // _cursos.scss     extend + mixin
+    // _viajes.scss     for + extend
 
-// Apliqué: 
-// _viajes.scss     for + extend
-// _common.scss     map + extend
-// _cursos.scss     extend + mixin
+// Realizar las modificaciones necesarias para mejorar el SEO en nuestro sitio.
+// Suma keywords, descripción, títulos y encabezado a todas las páginas de tu sitio.
+    // Agregue keywords, descripción, títulos y encabezado a todas las páginas.
+    // En el index cree un h1 con clase "visually-hidden" de Bootstrap, tome la idea de apple.com basado en documentación (https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) que recomienda un único h1 por html.
+
+    // FALTA
+        // Explica en un Google Doc los cambios realizados en el punto anterior, por ejemplo: 
+        // “Agregué estas keywords”, “cambié estos títulos”
