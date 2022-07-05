@@ -124,6 +124,8 @@ main h3 {
 }
 .footer__redesSociales a:hover {
   color: #808080;
+  transform: translateY(-5px);
+  transition: 0.2s;
 }
 
 .footer__datosContacto {
@@ -238,7 +240,7 @@ main h3 {
   bottom: 20px;
   right: 20px;
   width: 35%;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.3);
   color: #FFFFFF;
 }
@@ -246,7 +248,7 @@ main h3 {
   padding: 10px;
 }
 .welcome__form fieldset input, .welcome__form fieldset select, .welcome__form fieldset textarea {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   width: 100%;
   padding: 2px;
   font-family: "Nunito", sans-serif;
