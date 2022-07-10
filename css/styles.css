@@ -248,24 +248,20 @@ main h3 {
   padding: 10px;
 }
 .welcome__form fieldset input, .welcome__form fieldset select, .welcome__form fieldset textarea {
-  margin-bottom: 6px;
-  width: 100%;
-  padding: 2px;
-  font-family: "Nunito", sans-serif;
-  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
-.welcome__form fieldset textarea { /* NO ME FUNCIONA EL BLOQUEO DE LA MODIFICACION DE TAMAÑO */
+.welcome__form fieldset textarea {
   min-height: 50px;
   max-height: 50px;
-  max-width: 1000%;
+  max-width: 100%;
   min-width: 100%;
 }
-.welcome__form .btn {
-  width: 100%;
-  background-color: #DC0054;
-  border-radius: 12px;
-  color: #FFFFFF;
-  border-color: #006878;
+.welcome__form legend {
+  font-family: "OstrichSans-Heavy";
+  font-size: 1.8rem;
+}
+.welcome__form .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 104, 120, 0.25);
 }
 
 /* ----------------------------------- */
@@ -300,6 +296,13 @@ main h3 {
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 930px) {
+  .welcome__form fieldset input, .welcome__form fieldset select, .welcome__form fieldset textarea {
+    margin-bottom: 7px;
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+}
 @media screen and (max-width: 768px) {
   .welcome__background--desktop {
     display: none;
@@ -513,26 +516,20 @@ main h3 {
   padding: 10px;
 }
 .contacto__form fieldset input, .contacto__form fieldset select, .contacto__form fieldset textarea {
-  margin: 0 auto 7px 5%;
-  width: 90%;
-  padding: 2px;
-  font-family: "Nunito", sans-serif;
-  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
 .contacto__form fieldset textarea {
   min-height: 100px;
   max-height: 100px;
-  max-width: 90%;
-  min-width: 90%;
+  max-width: 100%;
+  min-width: 100%;
 }
-.contacto__form .btn {
-  width: 50%;
-  margin-left: 25%;
-  background-color: #DC0054;
-  border-radius: 10px;
-  color: #FFFFFF;
-  border-color: #006878;
-  padding: 5px;
+.contacto__form fieldset legend {
+  font-family: "OstrichSans-Heavy";
+  font-size: 1.8rem;
+}
+.contacto__form fieldset .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 104, 120, 0.25);
 }
 
 .ubicacion hr {

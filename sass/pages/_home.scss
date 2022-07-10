@@ -70,28 +70,25 @@
         padding: 10px;
     
         input, select, textarea {
-            margin-bottom: 6px;
-            width: 100%;
-            padding: 2px;
-            font-family: 'Nunito', sans-serif;
-            font-size: 0.9rem;
+            margin-bottom: 10px;
         }
     
-        textarea { /* NO ME FUNCIONA EL BLOQUEO DE LA MODIFICACION DE TAMAÑO */
+        textarea {
             min-height: 50px;
             max-height: 50px;
-            max-width: 1000%;
+            max-width: 100%;
             min-width: 100%;
         }
     }
-    
-    .btn {
-        width: 100%;
-        background-color: $colorATLRojo;
-        border-radius: 12px; 
-        color: #FFFFFF;
-        border-color: $colorATLVerde;
-    }
+
+	legend {
+		font-family: 'OstrichSans-Heavy';
+		font-size: 1.8rem;
+	}
+
+	.form-control:focus {
+		box-shadow: 0 0 0 .25rem rgba(0, 104, 120,.25);
+	}
 }
 
 /* ----------------------------------- */
@@ -129,6 +126,18 @@
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 930px) {
+	.welcome__form {
+		fieldset {
+			input, select, textarea {
+				margin-bottom: 7px;
+				font-size: 0.9rem;
+				padding: 2px;
+			}
+    	}
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.welcome__background--desktop {
 		display: none;
